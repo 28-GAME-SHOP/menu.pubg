@@ -463,13 +463,13 @@ function userid() {
    let text = document.getElementById('alertUserId');
    
    if (x.value.length < 6) {
-     text.innerHTML = "Periksa Kembali, Nomor Id Salah";
-     x.style = "border: 1px solid red;";
+     text.innerHTML = "Periksa Kembali, User Id Salah";
+     x.style = "border: 2px solid red;";
      text.style = "color: red;";
    }else if (x.value.length > 6){
      text.innerHTML = "Pastikan id terinput benar";
      text.style = "color: green;";
-     x.style = "border: 1px solid green;";
+     x.style = "border: 2px solid green;";
    }
 }
 
